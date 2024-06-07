@@ -2,7 +2,7 @@ import qrcode
 from IPython.display import display
 
 # Define the LinkedIn URL
-linkedin_url = "https://www.linkedin.com/in/torayeff/"
+linkedin_url = "https://www.linkedin.com/in/bugraozkan/"
 
 # Generate QR code
 qr = qrcode.QRCode(
@@ -21,4 +21,4 @@ img = qr.make_image(fill='black', back_color='white')
 display(img)
 
 # Save the QR code to a file
-img.save("qrAgajan.png")
+img.save("qr.png")
